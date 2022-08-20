@@ -61,7 +61,7 @@ header .logo{
     position: relative;
 }
 .main_banner h1{
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 60px;
@@ -70,7 +70,7 @@ header .logo{
     margin-bottom: 42px;
 }
 .main_banner p{
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
@@ -79,7 +79,18 @@ header .logo{
     margin-bottom: 26px;
 }
 .main_banner a{
-
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+    color: #FFFFFF;
+    display: inline-block;
+    background: #000000;
+    border: 1px solid #000000;
+    border-radius: 100px;
+    padding: 7px 23px;
+    text-decoration: none;
 }
 .main_banner img{
     position: absolute;
@@ -87,5 +98,18 @@ header .logo{
     top: 0;
 }
 .people{
-
+    background: rgba(204, 204, 204, 0.3);
+    padding-top: 76px;
+    padding-bottom: 61px;
+}
+.people .for_img{
+    max-width: 385px;
+    margin-right: 50px;
+}
+.people .for_img img{
+    width: 100%;
+    display: block;
+}
+.people .description{
+    max-width: 498px;
 }
